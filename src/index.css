@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+body{
+  margin: 0;
+  background-image: url("./assets/Untitled design.jpg");
+  background-size: cover;        /* fill viewport, maintain aspect */
+  background-position: center;   /* keep focal point centered */
+  background-repeat: no-repeat; 
+  
+}
+
+
+
+.heading-container {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 70px;
+  text-align:left;
+  width: 420px;
+  height: 200px;
+  
+  z-index: 100;
+}
+
+
+.heading{
+  font-size: 3.5rem;
+  color: #e76215;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 600;
+  padding-left: 10px;
+  font-stretch: condensed;
+  position: relative;
+  top: -20px;
+  left: 48px;
+}
+.subheading{
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+  bottom: 50px;
+  font-stretch: condensed;
+  position: relative;
+  left: 28px;
+}
+
+.nav-container {
+  display: flex;
+  position: sticky;
+  top: 10px;
+  left : 35%;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width : 450px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(233, 47, 47, 0.1);
+  border-radius: 20px;
+}
+
+.nav-list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap : 20px;
+}
+
+.nav-list li {
+  margin: 0 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #ff8000;
+}
+
+.bird-container{
+   position: fixed;
+   inset: 0;
+   z-index: 100;
+   pointer-events: none;
+   background-color: #ff8000;
+}
+
+.book{
+  border-radius: 20px;
+  border : 1px solid hsla(0, 0%, 0%, 0.289);
+  position: absolute;
+  width: 130px;
+  top: 600px;
+  left: 120px;
+  text-align: center;
+}
+
+.book-title{
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: #ff0015;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.get{
+  border-radius: 20px;
+  border : 1px solid hsla(0, 22%, 96%, 0.289);
+  position: absolute;
+  width: 150px;
+  top: 600px;
+  left: 300px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.get-title{
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-weight: 400;
+}
+
+.book2{
+  border-radius: 20px;
+  border : 1px solid hsla(0, 0%, 0%, 0.289);
+  position: absolute;
+  width: 130px;
+  left: 78%;
+  top: 5px;
+  text-align: center;
+}
+
+.get2{
+  border-radius: 20px;
+  border : 1px solid hsla(0, 22%, 96%, 0.289);
+  position: absolute;
+  width: 120px;
+  left: 89%;
+  top: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.scroll-container{
+background: #e762156c;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(227, 22, 22, 0.3);
+position: absolute;
+  top : 65%;
+  left: 80%;
+  width: 200px;
+  height: 190px;
+  text-align: center;
+}
+
+.scroll-content{
+  font-size: 2.5em;
+  font-family: "Funnel Display", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  bottom: 15px;
+}
+
+.company{
+  position: absolute;
+  top : 10px;
+  left: 10px;
+}
+
+.company-title{
+  
+  color: #8a0606;
+  font-family: sans-serif;
+}
+
