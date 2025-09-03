@@ -8,7 +8,7 @@
 
 body{
   margin: 0;
-  background-image: url("./assets/Untitled design.jpg");
+  background-image: url("/assets/Untitled design.jpg");
   background-size: cover;        /* fill viewport, maintain aspect */
   background-position: center;   /* keep focal point centered */
   background-repeat: no-repeat; 
